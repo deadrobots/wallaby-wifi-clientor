@@ -14,8 +14,13 @@ Download and place the entire folder containing the wallaby_update.sh script ont
 Assign it a hostname so that you can connect to your Wallaby, regardless of what IP address it picks up. Fire up a terminal (download and use PuTTY if you're on Windows) and ssh to the IP address listed in the Wallaby network section of the GUI.
 type:
 
+
+
 echo myWallabyHostname > /etc/hostname
+
 hostname myWallabyHostname
+
+
 
 Restart your Wallaby. Now you can connect to your Wallaby using the hostname instead of the IP address.
 
