@@ -4,7 +4,7 @@ Changes the KIPR Wallaby robotics platform from being a wifi hotspot into being 
 # Caveats and Warnings
 This script may break everything you love. We are not liable in that case. This script may be everything you've ever wanted. We're not liable for that either. No liabilities. That's the game.
 
-# Uni-Directional
+# Irreversable (No More Hotspot)
 This script backs up your files so you *could* restore everything in theory. However the script is currently only unidirectional. It will convert your Wallaby from being a wifi hotspot into a wifi client. If you want to revert, it may be easiest to re-image the Wallaby for now.
 
 # Use and Installation Instructions
