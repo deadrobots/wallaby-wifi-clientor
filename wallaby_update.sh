@@ -11,21 +11,8 @@ sleep 4
 
 
 if [ -z "${SSID}" ]; then
-        echo "SSID not set in the script. Since it's not set, I'll ask you for some information."
+        echo "SSID not set in the script."
         echo "Please modify the options at the top of this script with another computer if you have no way to provide input."
-        echo ""
-<<<<<<< HEAD
-        read -p "Enter SSID and press [ENTER]:" SSID
-        echo ""
-        read -p "Enter Password and press [ENTER]:" PASSWORD
-=======
-        echo "Enter SSID and press [ENTER]:"
-        read SSID
-        echo ""
-        echo "Enter Password and press [ENTER]:"
-        read PASSWORD
->>>>>>> 84dcde72755463163842eafda2c7227da82c77a6
-        echo ""
 fi
 
 BKUPDIR=/home/root/wallaby-pre-wifi-mods-backup
